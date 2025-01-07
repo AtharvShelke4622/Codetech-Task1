@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #6A1E55 !important;
+    height: 100%;
+}
+.container-fluid{
+    background-color: #6A1E55;
+
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.card{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.card2{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media (max-width: 768px) {
+    .cards {
+        flex-direction: column;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+}
+@media (max-width: 768px) {
+    .card2 {
+        flex-direction: column;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+.cards, .card2 {
+    gap: 20px;
+}
+.cards, .card2 {
+    justify-content: center;
+}
+.card {
+    background-color: #FFFFFF;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+.card, .btn-primary {
+    transition: all 0.3s ease-in-out;
+}
+
